@@ -7,13 +7,19 @@
   height: 100vh;
 }
 .side-bar-header {
+  background-color: #253141;
   height: 100px;
   padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
 }
 .rooms {
   background-color: #2F3E51;
   height: calc(100vh - 100px);
   padding: 0 20px;
+  overflow: scroll;
 }
 .main{
   background-color: #ffffff;
@@ -32,4 +38,23 @@
   background-color: #DDDDDD;
   height: 90px;
   padding: 20px 40px;
+}
+.username a{
+  font-size: 16px;
+  color: #fafafa;
+  text-decoration: none;
+}
+.chat-make a{
+  font-size: 10px;
+  color: deepskyblue;
+  border: solid 1px lightskyblue;
+  padding: 14px;
+  text-decoration: none;
+}
+.room{
+  padding: 20px 0 40px;
+}
+.chatroom{
+  color: white;
+  text-decoration: none;
 }
